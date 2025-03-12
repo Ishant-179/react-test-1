@@ -14,7 +14,7 @@ const DashBoard = () => {
     return (
       <div className="p-4 h-screen w-full bg-amber-500">
         <h1 className="text-2xl font-bold text-center mb-8 ">User Dashboard</h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <div className="grid grid-cols-1 grid-rows-5 lg:grid-col-3 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-3 sm:grid- gap-4 ">
           {users.map((user) => (
             <UserCard
               key={user.id}
